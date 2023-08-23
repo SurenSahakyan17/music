@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
+</head>
+<body>
+    <header>
+        <section class = "darkLightTheme">
+                <button id = "darkLightTheme__light-button">Светлая</button>
+                <button id = "darkLightTheme__dark-button">Тёмная</button>
+        </section>
+
+        <div class="header-logo">
+            <img alt="" class="logo2" src="./IMG/Music-Store17-2.jpg"/>
+        </div>
+        <nav class="header-menu">
+            <a class="header-menu-item" href="">Главная</a>   
+            <a class="header-menu-item" href="">Избранное</a> 
+            <a class="header-menu-item" href="">Топ 10 Хитов</a> 
+            <a class="header-menu-item" href="">Альбомы</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section class = "genresSection" id = "genresSection">
+            <section class = "Top10">
+                <h1 class  = "recommend">Рекомендуемые песни</h1>
+                <audio class = "audioTrack" controls src = "./Audio/MiyaGi_JEndshpil_-_Fire_Man_57475564.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Egzod_Maestro_Chives_Neoni_-_Royalty_73235442.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Wilee_-_Night_Drive_73975213.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/David Sylvian — for the love of life (Monster ED) (www.lightaudio.ru).mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Ayra Starr — Ayra Starr - Rush (www.lightaudio.ru).mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Wilee_-_Night_Drive_73975213.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/MiyaGi_JEndshpil_-_Fire_Man_57475564.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Egzod_Maestro_Chives_Neoni_-_Royalty_73235442.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Wilee_-_Night_Drive_73975213.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Wilee_-_Night_Drive_73975213.mp3"></audio>
+                <audio class = "audioTrack" controls src = "./Audio/Ambassador_-_Fairytale_(musmore.com).mp3"></audio>
+            </section>
+        
+
+        <section class = "genres" id = "genres">
+            <img class = "genresBg" src = "./IMG/ButtonGenresWraper.webp" alt = ""> 
+            <div class="search-wraper">     
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="search" placeholder="Type to search"/>
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                    <button class="search-button">Найти</button>
+
+            </div>
+            <h1 class = "generes__title">Жанры</h1>
+            <div class = "ButtonGenresWraper">
+                 <button class = "button-genres" onclick = "location.href = './blues.html'"><h1 class  = "h1-songNames">БЛЮЗ</h1></button>
+                <button class = "button-genress"   onclick = "location.href = './rock.html'"><h1 class  = "h1-songNames">РОК</h1></button>
+                 <button class = "button-genresss" onclick = "location.href = './shanson.html'"><h1 class  = "h1-songNames">ШАНСОН</h1></button></h1>
+                 <button class = "button-genressss" onclick = "location.href = './rap.html'"><h1 class  = "h1-songNames">РЭП</h1></button>
+                <button class = "button-genresssss"><h1 class  = "h1-songNames">ЭЛЕКТРО</h1></button>
+                 <button class = "button-genressssss"><h1 class  = "h1-songNames">ХИП-ХОП</h1></button>
+                 <button class = "button-genresssssss"><h1 class  = "h1-songNames">МЕТАЛ</h1></button>
+                <button class = "button-genressssssss"><h1 class  = "h1-songNames">ДЖАЗ</h1></button>
+             </div>
+                
+            </section>
+        </section>
+    </main>  
+        
+     <footer>
+      
+     </footer>
+
+     <script src = "script.js"></script>
+</body>
+</html>

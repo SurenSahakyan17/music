@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+@media only screen and (max-width: 1600px) {
+
+.container {
+    max-width: 1200px;
+   
+}
+
+
+body {
+    background-color: #0007B2;
+    margin:0;   
+}
+
+header {
+    width: 1600px;
+    height: 170px;
+    background: rgb(36, 36, 113);;
+    display:flex;
+}
+
+.header-logo {
+    margin-top: 0;
+    margin-left: 0;
+} 
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 71px;
+    position: relative;
+    width: 459px;
+    height: 21px;
+    margin-top: 74px;
+    margin-left: 200px;
+}
+
+.header-menu-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.search-box {
+    background: #2f3640;
+    height:40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top:0px;
+    width: 481px;
+    border-radius: 50px;
+}
+
+.search-btn {
+    color:#1da1f3;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#2f3640;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding:0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:240px;
+} 
+
+.logo2{
+    width: 470px;
+    height: 170px;
+    background: url(./IMG/Music-Store17-2.jpg);
+    
+}
+
+.header-search{
+    width: 177px;
+    height: 41px;
+    background: #1C1E51;
+}
+
+.search-button{
+    width: 137px;
+    height: 58px;
+    background: #00ACD1;
+    border-radius: 30px;
+    margin-left: 37px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.search-button:hover{
+    transform:scale(1.1);
+    transition: 0.7s;
+}
+
+.search-wraper{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 24px;
+}
+
+.audioTrack{
+    width: 300px;
+    height: 80px;
+    border: 1px solid rgb(36, 36, 113);
+     
+}
+
+.Top10{
+    width:350px;
+    height:800px;
+    border-right:1px solid white;
+    margin-left: 15px;
+}
+
+.genres {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+    height: 1790px;
+    margin-bottom: 0;
+    font-size: 100px;
+    
+}
+
+.button-genres {
+  
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/БЛЮЗ.jpg)
+}
+
+.button-genress {
+   
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/1619088420_19-phonoteka_org-p-fon-v-stile-rok-22.jpg)
+}
+
+.button-genresss  {
+    
+    width:200px;
+    height: 170px;
+    background: url(./IMG/Шансон.jpg)
+}
+
+
+.button-genressss {
+    
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/1620237833_51-phonoteka_org-p-fon-v-stile-rep-55.jpg)
+}
+
+
+
+
+.button-genresssss {
+    
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/Electro.jpg)
+}
+
+.button-genressssss {
+    
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/hip-hop.jpg)
+}
+
+
+.button-genresssssss {
+    
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/m.webp)
+}
+
+.button-genressssssss {
+    
+    width: 200px;
+    height: 170px;
+    background: url(./IMG/dzhaz-art-1.webp)
+}
+
+.genresSection {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.ButtonGenresWraper {
+    position: relative;
+    width: 1244px; 
+    height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 104px;
+    row-gap: 156px;
+    margin-top: 134px;
+    margin-left: 80px;
+}
+
+.generes__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+} 
+
+.genresBg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(5px);
+}
+
+.recommend { 
+    font-size: 28px;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.h1-songNames {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+}
+
+@media only screen and (max-width:992px) {
+.container {
+    max-width: 750px;
+}
+    body {
+        background-color: #0007B2;
+        margin:0;
+        
+    }
+    
+    header {
+         width: 100%;       /* 1600px */
+        height: 12%;
+        background: #00ACD1;
+        display:flex;
+        width: 62%;
+    }
+    
+    .header-logo {
+        margin-top: 1%;
+        margin-left: 1%;
+        
+    } 
+    
+    .header-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 71px;
+        position: relative;
+        width: 29%;
+        height: 1%;
+        margin-top: 5%;
+        margin-left: 24%;
+    }
+    
+    .header-menu-item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1%;
+        line-height: 1,5%;
+        color: #FFFFFF;
+        flex: none;
+        text-decoration: none;
+        
+    }
+    
+    .search-box {
+        background: #2f3640;
+        height: 2,5%;
+        border-radius: 2,5%;
+        padding: 1%;
+        margin-top: 0;
+        width: 30%;
+        border-radius: 3%;
+        
+    }
+    
+    .search-btn {
+        color:#1da1f3;
+        float:right;
+        width:2,5%;
+        height:2,5%;
+        border-radius: 50%;
+        background:#2f3640;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-decoration: none;
+    }
+    
+    .search-txt {
+        border:none;
+        background: none;
+        outline:none;
+        float:left;
+        padding:0;
+        color: white;
+        font-size: 1%;
+        transition: 0.4s;
+        line-height: 2,5%;
+    
+        
+    } 
+    
+    .logo2{
+        width: 29%;
+        height: 11%;
+        background: url(Music-Store17.jpg);
+        
+    }
+    
+   
+    
+    .search-button{
+        width: 8,5%;
+        height: 3,6%;
+        background: #00ACD1;
+        border-radius: 2%;
+        margin-left: 2%;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5%;
+        line-height: 2%;
+        color: #FFFFFF;
+        
+    }
+    
+    .search-button:hover{
+        transform:scale(1.1);
+        transition: 0.7s;
+    }
+    
+    .search-wraper{
+        display: flex;
+        margin-left: 37%;
+        margin-top: 1.5%;
+    }
+    
+    .audioTrack{
+        width: 19%;
+        height: 5%;
+        border: 1% solid rgb(36, 36, 113);
+    }
+    
+    .Top10{
+        width:22%;
+        height: 50%;
+        border-right:1% solid white;
+        margin-left: 2%;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 767px) {
+.container {
+    max-width: none;
+        
+}
+
+body {
+    background-color: #0007B2;
+    margin:0;
+    width: 48,5%;
+}
+
+header {    
+    height: 12%;
+    width: 100%;
+    background: #00ACD1;
+    display:flex;
+}
+
+.header-logo {
+    margin-top: 1%;
+    margin-left: 1%;
+} 
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4%;
+    position: relative;
+    width: 29%;
+    height: 1%;
+    margin-top: 5%;
+    margin-left: 27%;
+}
+
+.header-menu-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1%;
+    line-height: 1.5%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.search-box {
+    background: #2f3640;
+    height: 2.5%;
+    border-radius: 2.5%;
+    padding: 1%;
+    margin-top: 0;
+    width: 30%;
+    border-radius: 3%;
+}
+
+.search-btn {
+    color:#1da1f3;
+    float:right;
+    width: 2.5%;
+    height: 2.5%;
+    border-radius: 50%;
+    background:#2f3640;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding:0;
+    color: white;
+    font-size: 1%;
+    transition: 0.4s;
+    line-height: 2.5%;
+    width:15%;
+} 
+
+.logo2{
+    width: 29%;
+    height: 11%;
+    background: url(Music-Store17.jpg);
+    
+}
+
+.header-search{
+    width: 11%;
+    height: 2.5%;
+    background: #1C1E51;
+}
+
+.search-button{
+    width: 8,5%;
+    height: 4%;
+    background: #00ACD1;
+    border-radius: 2%;
+    margin-left: 2%;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5%;
+    line-height: 2%;
+    color: #FFFFFF;
+
+}
+
+.search-button:hover{
+    transform:scale(1.1);
+    transition: 0.7s;
+}
+
+.search-wraper{
+    display: flex;
+    margin-left: 37%;
+    margin-top: 1.5%;
+}
+
+.audioTrack{
+    width: 19%;
+    height: 5%;
+    border: 1% solid rgb(36, 36, 113);
+     
+}
+
+.Top10{
+    width: 22%;
+    height: 50%;
+    border-right:1% solid white;
+    margin-left: 2%;
+}
+
+
+
+
+}
+
+
+.darkLightTheme__light-button {
+    background-color: white;
+}
+
+.darkLightTheme__dark-button {
+    background-color: black;
+}
